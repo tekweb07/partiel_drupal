@@ -1,0 +1,7 @@
+file.fileupload_form:
+  path: '/file/fileuploadform'
+  defaults:
+    _form: 'Drupal\file\Form\FileUploadForm'
+    _title: 'Simple formulaire de telechargement'
+  requirements:
+    _permission: 'access content'
